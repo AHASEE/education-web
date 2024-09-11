@@ -1,0 +1,24 @@
+*{font-family: sans-serif;
+
+}
+.hero {
+    background-image: url(bg3.jpg);
+    background-image: cover;
+}
+.text1{ font-size: 3rem;
+    
+}
+@media (max-width: 768px) {
+    .text1{font-size: 2rem;} 
+}
+.custom-border{border-left: 10px solid blue;
+    margin: 10px;
+
+}
+.shad{
+    text-shadow: 3px 3px 3px black;
+}
+.nav-item:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
